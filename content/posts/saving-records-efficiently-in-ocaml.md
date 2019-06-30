@@ -1,5 +1,5 @@
 ---
-title: 'Saving Records Efficiently in OCaml '
+title: 'Returning Records Efficiently in OCaml '
 date: '2019-06-30T12:37:58-05:00'
 ---
 One of my coworkers recently taught me this great syntactic trick for saving records in OCaml. Frequently I have a record with 4-6 fields that is managing the state of a process or request and I want to write a function to update only one of those fields. Let's assuming the following is our record.
