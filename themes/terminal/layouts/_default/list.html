@@ -31,7 +31,7 @@
     {{ end }}
 
     <div class="post-content">
-      {{ if .Params.showFullContent }}
+      {{ if $.Site.Params.showFullContent }}
       {{ .Content | markdownify }}
       {{ else if .Description }}
       {{ .Description | markdownify }}
