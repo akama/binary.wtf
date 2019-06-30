@@ -23,4 +23,4 @@ let update_one_thing (r : test_record) =
   { r with field1 }
 ```
 
-I find this much pretty than the other method. I don't know why I don't see this in more code hence why I'm sharing it. 
+I find this much easier to read and write than the other method. I don't know why I don't see this in more code so hopefully more people start to use it.  
