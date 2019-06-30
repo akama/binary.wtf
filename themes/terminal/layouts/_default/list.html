@@ -42,7 +42,7 @@
       {{ end }}
     </div>
 
-    {{ if not .Params.showFullContent }}
+    {{ if not $.Site.Params.showFullContent }}
     <div>
       <a class="read-more button"
         href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore }} →</a>
