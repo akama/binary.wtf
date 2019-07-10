@@ -1,6 +1,6 @@
 ---
 title: Returning Records Efficiently in OCaml
-date: '2019-06-30T12:39:15-05:00'
+date: '2019-07-10T13:39:15-05:00'
 tags:
   - OCaml
 ---
