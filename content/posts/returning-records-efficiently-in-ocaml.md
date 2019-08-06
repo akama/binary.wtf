@@ -13,7 +13,7 @@ type test_record = {
   field4 : string list;
 }
 ```
-Now we want to update an instance of this to set `field1` to 3. Here is the quick way to update a single field.
+Now we want to update an instance of this to set `field1` to a new value. Here is the quick way to update a single field.
 ```
 let update_one_thing (r : test_record) =
   let field1 = do_something_here r.field1 in
