@@ -15,8 +15,8 @@ https://bucket_here.s3.amazonaws.com/file_here.tar?X-Amz-Signature=18424ca80001a
 
 These urls include all the authentication needed to GET/PUT files from AWS S3 so that they can safely be made on one system and then transferred via ssh or shortlinks to a remote system. As long as the systems can access S3 over the network, this works for file transfers. 
 
-Quick tip, we have a bucket called `***-dropbox` which is set to expire everything in seven days. We use this for a lot of one of transfers.
+Quick tip, we have a bucket called `***-dropbox` which is set to expire everything in seven days. We use this for a lot of one-off transfers.
 
-Presigner can support uploads/downloads with the `-v` flag, so `-v PUT` or `-v GET`. It will also make the curl command for you with the `-c` command if you are extra lazy. You can adjust the duration of the link time with `-d` although it has a max cap of 7 days at the moment due to an AWS limitation. It will also try and fetch the region given the bucket name but if you are running it in bulk or know the region in advance you can speed it up with `-r us-east-1` or equivalent.
+Presigner can support uploads/downloads with the `-v` flag, so `-v PUT` or `-v GET`. It will also make the curl command for you with the `-c` command if you are extra lazy. You can adjust the lifetime of the link time with `-d` although it has a max cap of 7 days at the moment due to an AWS limitation. It will also try and fetch the region given the bucket name but if you are running it in bulk or know the region in advance you can speed it up with `-r us-east-1` or equivalent.
 
 You can get the source code for it and binaries from <https://github.com/UnrealAkama/presigner>
