@@ -13,7 +13,9 @@ Server administrators frequently have a hard problem with regards to moving file
 https://bucket_here.s3.amazonaws.com/file_here.tar?X-Amz-Signature=18424ca80001a1b88cfe402cbe2395c47cf24a36ca121d11f53d04d4186e1369&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRPW5JGRSXEQSOQQ/20191112/us-east-1/s3/aws4_request&X-Amz-Date=20191112T150506Z&X-Amz-Expires=21600&X-Amz-SignedHeaders=host
 ```
 
-These urls include all the authentication needed to GET/PUT files from AWS S3 so that they can safely be made on one system and then transferred via ssh or shortlinks to a remote system. As long as the systems can access S3 over the network, this works for file transfers. 
+These urls include all the authentication needed to GET/PUT files from AWS S3 so that they can safely be made on one system and then transferred via copy/paste, ssh, or shortlinks to a remote system. As long as the destinstion systems can access S3 over the network, this works for file transfers. 
+
+This means that you are able to generate links on system A, use those links to upload files on system B, and download them on system C, but the credentials never have to leave system A. All this requires is a simple S3 bucket and permissions to use it. 
 
 Quick tip, we have a bucket called `***-dropbox` which is set to expire everything in seven days. We use this for a lot of one-off transfers.
 
