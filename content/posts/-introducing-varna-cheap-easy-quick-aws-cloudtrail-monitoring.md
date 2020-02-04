@@ -15,3 +15,5 @@ Varna has several features that make it attractive for usage as an AWS account s
 Varna also includes past search. This can frequently be used to shed light on what was happening around an event. Both the web interface and the command line script allow the administrator to run EQL queries over previous time windows. In the latest release, Varna can also be protected to only allow access by specific users via authentication. 
 
 Varna comes with a small suite of preexisting EQL analytics. These are meant to be tuned to an individual account and may not be suitable for any individual account. All of these are meant to be high signal alerts that indicate potentially dangerous actions that can be undertaken in an AWS account. Combined with the built in notification methods, this can be a quick means of detecting suspicious behavior for a cheap monthly cost while maintain rich customization. 
+
+You can check out Varna at [github.com/endgameinc/varna](https://github.com/endgameinc/varna)
