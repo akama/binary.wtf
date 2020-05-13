@@ -4,7 +4,7 @@ date: '2020-05-07T08:16:52-05:00'
 categories:
   - ''
 tags:
-  - '#programming'
+  - programming
 ---
 I've recently been reading the book Liquid Intelligence by Dave Arnold. It's an excellent book that you should read if you have any interest in cocktails. In the first section of the book, he has a set of principles that he applies to making cocktails that I've slightly adapted for technology and engineering and posted below. 
 
