@@ -8,8 +8,8 @@ tags:
 ---
 I've recently been reading the book Liquid Intelligence by Dave Arnold. It's an excellent book that you should read if you have any interest in cocktails. In the first section of the book, he has a set of principles that he applies to making cocktails that I've slightly adapted for technology and engineering and posted below. 
 
-* _Use new techniques and technologies only when they make the application better. _
-* _Strive to make an amazing application with fewer rather than more components. _
+* _Use new techniques and technologies only when they make the application better._
+* _Strive to make an amazing application with fewer rather than more components._
 * _Don't expect a user to know how you made an application in order to enjoy it._
 * _Gauge success by whether your user keeps using your application, not whether they think the application is "interesting"._
 * _Build and follow your tastes._
