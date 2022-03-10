@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Berkeley Mono';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/BerkeleyMono-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Berkeley Mono';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("../fonts/BerkeleyMono-Bold.woff") format("woff");
+}
+
+body {
+  font-family: 'Berkeley Mono', Monaco, Consolas, Ubuntu Mono, monospace;
+}
+
